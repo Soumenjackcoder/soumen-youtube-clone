@@ -15,16 +15,18 @@
   margin-left: 20px;
 }
 
-.header_left {
-}
-
 .header_input {
   display: flex;
   align-items: center;
   width: 40%;
-  border: 1px solid black;
+  border: 1px solid #cccaca;
+  background-color: #ffffff;
+  border-radius: 3px;
 }
 
+.header_input > input {
+  outline-width: 0;
+}
 .header_icon {
   margin-right: 10px;
 }
@@ -35,9 +37,11 @@
 }
 
 .header_inputButton {
+  position: relative;
+  bottom: -2px;
   width: 50px !important;
-  background-color: #fafafa;
-  border-left: 1px solid lightgrey;
+  background-color: #ffffff;
+  border-left: 1px solid #cccaca;
   color: grey;
 }
 
